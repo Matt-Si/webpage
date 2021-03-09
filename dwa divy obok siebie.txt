@@ -1,0 +1,26 @@
+.static{
+	float:left;
+	position: relative;
+	display: block;
+	top: 30%;
+	left: 35%;
+	font-size: 2em;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+	animation-direction: reverse;
+	font-weight: 700;
+ 
+}
+.dynamic{
+	float:left;
+	position: relative;
+	display: block;
+	top: 30%;
+	left: 35%;
+	font-size: 2em;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+   	animation-direction: reverse;
+  
