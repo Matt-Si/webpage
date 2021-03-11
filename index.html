@@ -3,6 +3,8 @@
 	<head> 
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style3.css" type="text/css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
 		<title> Moja strona internetowa</title>
 	</head>
 
@@ -64,13 +66,40 @@
     <p class="content2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis turpis a ante egestas volutpat ac vitae nulla. Fusce fermentum dui nisl, at malesuada lacus condimentum et. Suspendisse gravida odio sed placerat rhoncus. Donec elementum, turpis feugiat vulputate eleifend, mi nisl hendrerit leo, a porttitor mi nunc vel lorem. Donec ut feugiat leo, at mattis odio. </p>
     </div>
 	
-	<div class="form-box">
+	<div class="separateLine3"></div>
+	<form action="">
+	<div class="formboxSection">
 	<h1>Contact form</h1>
-	<form action="mateusz.sieradzki01@gmail.com" method="post">
-	<label>Name</label>
-	<input type="name" size="50" maxlength="30" placeholder="Your name.." />
-	<br>
-	<textarea>Send message</textarea>
+	<div class="formboxContainer">
+	<div class="formbox">
+	<label for="First Name"> First Name </label>
+	<input type ="text" id="firstName" name="firstName">
+	</div>
+	
+	<div class="formbox">
+	<label for="Last Name"> Last Name </label>
+	<input type ="text" id="lastName" name="lastName">
+	</div>
+	
+	<div class="formbox">
+	<label for="email"> E-mail </label>
+	<input type ="email" id="email" name="email">
+	</div>
+	
+	<div class="formbox">
+	<label for="message"> Message </label>
+	<textarea name="message" id="message" cols="30" rows="10"></textarea>
+	</div>
+	<button type="submit"> Submit </button>
+	</form>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	
 	
 	
 	</div>
